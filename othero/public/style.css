@@ -1,0 +1,35 @@
+/* styles.css */
+.board {
+  display: grid;
+  grid-template-columns: repeat(8, 40px);
+  grid-gap: 2px;
+}
+
+.square {
+  width: 40px;
+  height: 40px;
+  background-color: green;
+  border: 1px solid black;
+  position: relative;
+}
+
+.square:hover {
+  background-color: lightgreen;
+}
+
+.black {
+  background-color: black;
+  border-radius: 50%;
+  width: 80%;
+  height: 80%;
+  margin: 10%;
+}
+
+.white {
+  background-color: white;
+  border-radius: 50%;
+  width: 80%;
+  height: 80%;
+  margin: 10%;
+}
+
