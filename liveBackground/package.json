@@ -1,0 +1,9 @@
+{
+    "scripts": {
+        "build": "bun build src/index.ts --outdir public",
+        "watch": "bun build src/index.ts --outdir public --watch"
+    },
+    "dependencies": {
+        "@types/web": "^0.0.162"
+    }
+}
